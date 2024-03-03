@@ -100,7 +100,7 @@ function PincodeDetail() {
         <div>
           {loading ? null : (
             <div>
-              Couldn’t find the postal data you’re looking for…
+              <h3>Couldn’t find the postal data you’re looking for…</h3>
             </div>
           )}
         </div>
