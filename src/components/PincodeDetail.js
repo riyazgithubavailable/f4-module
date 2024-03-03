@@ -54,7 +54,7 @@ function PincodeDetail() {
        {fetchSuccess && (
         <div>
           <h1>Pincode: {pincode}</h1>
-          <h1>Message: Number of pincode(s) found:</h1>
+          <h1>Message: Number of pincode(s) found:{filteredData.length}</h1>
         </div>
       )}
       <input
